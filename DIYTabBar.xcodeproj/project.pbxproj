@@ -13,6 +13,8 @@
 		22B62E631DAE324B00CBCC46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B62E611DAE324B00CBCC46 /* Main.storyboard */; };
 		22B62E651DAE324B00CBCC46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22B62E641DAE324B00CBCC46 /* Assets.xcassets */; };
 		22B62E681DAE324B00CBCC46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B62E661DAE324B00CBCC46 /* LaunchScreen.storyboard */; };
+		22B62E721DAE36AA00CBCC46 /* URTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B62E711DAE36AA00CBCC46 /* URTabBarController.m */; };
+		22B62E751DAE36FA00CBCC46 /* URTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B62E741DAE36FA00CBCC46 /* URTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		22B62E641DAE324B00CBCC46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22B62E671DAE324B00CBCC46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22B62E691DAE324B00CBCC46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22B62E701DAE36AA00CBCC46 /* URTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URTabBarController.h; sourceTree = "<group>"; };
+		22B62E711DAE36AA00CBCC46 /* URTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URTabBarController.m; sourceTree = "<group>"; };
+		22B62E731DAE36FA00CBCC46 /* URTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URTabBar.h; sourceTree = "<group>"; };
+		22B62E741DAE36FA00CBCC46 /* URTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URTabBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		22B62E571DAE324B00CBCC46 /* DIYTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				22B62E6F1DAE33A700CBCC46 /* TabBarController */,
 				22B62E5B1DAE324B00CBCC46 /* AppDelegate.h */,
 				22B62E5C1DAE324B00CBCC46 /* AppDelegate.m */,
 				22B62E5E1DAE324B00CBCC46 /* ViewController.h */,
@@ -77,6 +84,17 @@
 				22B62E591DAE324B00CBCC46 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22B62E6F1DAE33A700CBCC46 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				22B62E701DAE36AA00CBCC46 /* URTabBarController.h */,
+				22B62E711DAE36AA00CBCC46 /* URTabBarController.m */,
+				22B62E731DAE36FA00CBCC46 /* URTabBar.h */,
+				22B62E741DAE36FA00CBCC46 /* URTabBar.m */,
+			);
+			path = TabBarController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +171,9 @@
 			files = (
 				22B62E601DAE324B00CBCC46 /* ViewController.m in Sources */,
 				22B62E5D1DAE324B00CBCC46 /* AppDelegate.m in Sources */,
+				22B62E721DAE36AA00CBCC46 /* URTabBarController.m in Sources */,
 				22B62E5A1DAE324B00CBCC46 /* main.m in Sources */,
+				22B62E751DAE36FA00CBCC46 /* URTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +330,7 @@
 				22B62E6E1DAE324B00CBCC46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
