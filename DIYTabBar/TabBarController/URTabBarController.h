@@ -10,7 +10,7 @@
 
 FOUNDATION_EXTERN NSString *const URTabBarItemTitle;
 FOUNDATION_EXTERN NSString *const URTabBarItemImage;
-FOUNDATION_EXTERN NSString *const URTabBarItemSelectImage;
+FOUNDATION_EXTERN NSString *const URTabBarItemSelectedImage;
 FOUNDATION_EXTERN NSUInteger URTabBarItemsCount;
 //FOUNDATION_EXTERN NSUInteger URPl
 FOUNDATION_EXTERN CGFloat URTabBarItemWidth;
@@ -19,7 +19,7 @@ FOUNDATION_EXTERN CGFloat URTabBarItemWidth;
 
 @property (nonatomic, readwrite, copy) NSArray<UIViewController *> *viewControllers;
 
-@property (nonatomic, readwrite, copy) NSArray<NSDictionary *> *tabBarItemAttriButes;
+@property (nonatomic, readwrite, copy) NSArray<NSDictionary *> *tabBarItemsAttributes;
 
 @property (nonatomic, assign) CGFloat tabBarHeight;
 
@@ -31,5 +31,18 @@ FOUNDATION_EXTERN CGFloat URTabBarItemWidth;
 
 + (instancetype)tabBarControllerWithViewControllers:(NSArray<UIViewController *> *)viewControllers tabBarItemsAttributes:(NSArray<NSDictionary *> *)tabBarItemsAttributes;
 
++ (NSUInteger)allItemInTabBarCount;
+
+- (id<UIApplicationDelegate>)appDelegate;
+
+- (UIWindow *)rootWindow;
 
 @end
+
+@interface NSObject (URTabBarController)
+
+@property (nonatomic, readonly) URTabBarController *ur_tabBarController;
+
+@end
+
+FOUNDATION_EXTERN NSString *const URTabBarItemWidthDidChangeNotification;

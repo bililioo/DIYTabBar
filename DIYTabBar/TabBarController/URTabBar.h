@@ -10,4 +10,6 @@
 
 @interface URTabBar : UITabBar
 
+@property (nonatomic, assign, readonly) CGFloat swappableImageViewDefaultOffset;
+
 @end
