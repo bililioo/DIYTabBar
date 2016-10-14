@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		220617B51DAF914D0078BCD4 /* UIViewController+URTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 220617B41DAF914D0078BCD4 /* UIViewController+URTabBarControllerExtention.m */; };
+		221D33B11DB07464009B1B5B /* TabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 221D33B01DB07464009B1B5B /* TabBarControllerConfig.m */; };
 		22B62E5A1DAE324B00CBCC46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B62E591DAE324B00CBCC46 /* main.m */; };
 		22B62E5D1DAE324B00CBCC46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B62E5C1DAE324B00CBCC46 /* AppDelegate.m */; };
 		22B62E601DAE324B00CBCC46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B62E5F1DAE324B00CBCC46 /* ViewController.m */; };
@@ -18,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		220617B31DAF914D0078BCD4 /* UIViewController+URTabBarControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+URTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		220617B41DAF914D0078BCD4 /* UIViewController+URTabBarControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+URTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		221D33AF1DB07464009B1B5B /* TabBarControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarControllerConfig.h; sourceTree = "<group>"; };
+		221D33B01DB07464009B1B5B /* TabBarControllerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarControllerConfig.m; sourceTree = "<group>"; };
 		22B62E551DAE324B00CBCC46 /* DIYTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DIYTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B62E591DAE324B00CBCC46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		22B62E5B1DAE324B00CBCC46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -69,6 +75,8 @@
 				22B62E5C1DAE324B00CBCC46 /* AppDelegate.m */,
 				22B62E5E1DAE324B00CBCC46 /* ViewController.h */,
 				22B62E5F1DAE324B00CBCC46 /* ViewController.m */,
+				221D33AF1DB07464009B1B5B /* TabBarControllerConfig.h */,
+				221D33B01DB07464009B1B5B /* TabBarControllerConfig.m */,
 				22B62E611DAE324B00CBCC46 /* Main.storyboard */,
 				22B62E641DAE324B00CBCC46 /* Assets.xcassets */,
 				22B62E661DAE324B00CBCC46 /* LaunchScreen.storyboard */,
@@ -93,6 +101,8 @@
 				22B62E711DAE36AA00CBCC46 /* URTabBarController.m */,
 				22B62E731DAE36FA00CBCC46 /* URTabBar.h */,
 				22B62E741DAE36FA00CBCC46 /* URTabBar.m */,
+				220617B31DAF914D0078BCD4 /* UIViewController+URTabBarControllerExtention.h */,
+				220617B41DAF914D0078BCD4 /* UIViewController+URTabBarControllerExtention.m */,
 			);
 			path = TabBarController;
 			sourceTree = "<group>";
@@ -171,9 +181,11 @@
 			files = (
 				22B62E601DAE324B00CBCC46 /* ViewController.m in Sources */,
 				22B62E5D1DAE324B00CBCC46 /* AppDelegate.m in Sources */,
+				220617B51DAF914D0078BCD4 /* UIViewController+URTabBarControllerExtention.m in Sources */,
 				22B62E721DAE36AA00CBCC46 /* URTabBarController.m in Sources */,
 				22B62E5A1DAE324B00CBCC46 /* main.m in Sources */,
 				22B62E751DAE36FA00CBCC46 /* URTabBar.m in Sources */,
+				221D33B11DB07464009B1B5B /* TabBarControllerConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
