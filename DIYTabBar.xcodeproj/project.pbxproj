@@ -8,7 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		220617B51DAF914D0078BCD4 /* UIViewController+URTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 220617B41DAF914D0078BCD4 /* UIViewController+URTabBarControllerExtention.m */; };
+		220E98901DB0B60D001B66CB /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 220E988F1DB0B60D001B66CB /* ChildViewController.m */; };
 		221D33B11DB07464009B1B5B /* TabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 221D33B01DB07464009B1B5B /* TabBarControllerConfig.m */; };
+		221D33B41DB07875009B1B5B /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221D33B31DB07875009B1B5B /* OneViewController.m */; };
+		221D33B71DB0787E009B1B5B /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221D33B61DB0787E009B1B5B /* TwoViewController.m */; };
+		221D33BA1DB07884009B1B5B /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221D33B91DB07884009B1B5B /* ThreeViewController.m */; };
 		22B62E5A1DAE324B00CBCC46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B62E591DAE324B00CBCC46 /* main.m */; };
 		22B62E5D1DAE324B00CBCC46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B62E5C1DAE324B00CBCC46 /* AppDelegate.m */; };
 		22B62E601DAE324B00CBCC46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B62E5F1DAE324B00CBCC46 /* ViewController.m */; };
@@ -17,13 +21,22 @@
 		22B62E681DAE324B00CBCC46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B62E661DAE324B00CBCC46 /* LaunchScreen.storyboard */; };
 		22B62E721DAE36AA00CBCC46 /* URTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B62E711DAE36AA00CBCC46 /* URTabBarController.m */; };
 		22B62E751DAE36FA00CBCC46 /* URTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B62E741DAE36FA00CBCC46 /* URTabBar.m */; };
+		22B984811DB0C09800B56A0C /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B984801DB0C09800B56A0C /* FourViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		220617B31DAF914D0078BCD4 /* UIViewController+URTabBarControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+URTabBarControllerExtention.h"; sourceTree = "<group>"; };
 		220617B41DAF914D0078BCD4 /* UIViewController+URTabBarControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+URTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		220E988E1DB0B60D001B66CB /* ChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildViewController.h; sourceTree = "<group>"; };
+		220E988F1DB0B60D001B66CB /* ChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildViewController.m; sourceTree = "<group>"; };
 		221D33AF1DB07464009B1B5B /* TabBarControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarControllerConfig.h; sourceTree = "<group>"; };
 		221D33B01DB07464009B1B5B /* TabBarControllerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarControllerConfig.m; sourceTree = "<group>"; };
+		221D33B21DB07875009B1B5B /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		221D33B31DB07875009B1B5B /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		221D33B51DB0787E009B1B5B /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		221D33B61DB0787E009B1B5B /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		221D33B81DB07884009B1B5B /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		221D33B91DB07884009B1B5B /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
 		22B62E551DAE324B00CBCC46 /* DIYTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DIYTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B62E591DAE324B00CBCC46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		22B62E5B1DAE324B00CBCC46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -38,6 +51,8 @@
 		22B62E711DAE36AA00CBCC46 /* URTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URTabBarController.m; sourceTree = "<group>"; };
 		22B62E731DAE36FA00CBCC46 /* URTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URTabBar.h; sourceTree = "<group>"; };
 		22B62E741DAE36FA00CBCC46 /* URTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URTabBar.m; sourceTree = "<group>"; };
+		22B9847F1DB0C09800B56A0C /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		22B984801DB0C09800B56A0C /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +66,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		221D33BB1DB078CA009B1B5B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				221D33B21DB07875009B1B5B /* OneViewController.h */,
+				221D33B31DB07875009B1B5B /* OneViewController.m */,
+				221D33B51DB0787E009B1B5B /* TwoViewController.h */,
+				221D33B61DB0787E009B1B5B /* TwoViewController.m */,
+				221D33B81DB07884009B1B5B /* ThreeViewController.h */,
+				221D33B91DB07884009B1B5B /* ThreeViewController.m */,
+				220E988E1DB0B60D001B66CB /* ChildViewController.h */,
+				220E988F1DB0B60D001B66CB /* ChildViewController.m */,
+				22B9847F1DB0C09800B56A0C /* FourViewController.h */,
+				22B984801DB0C09800B56A0C /* FourViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 		22B62E4C1DAE324B00CBCC46 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +109,7 @@
 				22B62E5F1DAE324B00CBCC46 /* ViewController.m */,
 				221D33AF1DB07464009B1B5B /* TabBarControllerConfig.h */,
 				221D33B01DB07464009B1B5B /* TabBarControllerConfig.m */,
+				221D33BB1DB078CA009B1B5B /* Classes */,
 				22B62E611DAE324B00CBCC46 /* Main.storyboard */,
 				22B62E641DAE324B00CBCC46 /* Assets.xcassets */,
 				22B62E661DAE324B00CBCC46 /* LaunchScreen.storyboard */,
@@ -133,7 +166,7 @@
 		22B62E4D1DAE324B00CBCC46 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = urun;
 				TargetAttributes = {
 					22B62E541DAE324B00CBCC46 = {
@@ -185,7 +218,12 @@
 				22B62E721DAE36AA00CBCC46 /* URTabBarController.m in Sources */,
 				22B62E5A1DAE324B00CBCC46 /* main.m in Sources */,
 				22B62E751DAE36FA00CBCC46 /* URTabBar.m in Sources */,
+				22B984811DB0C09800B56A0C /* FourViewController.m in Sources */,
+				221D33B71DB0787E009B1B5B /* TwoViewController.m in Sources */,
 				221D33B11DB07464009B1B5B /* TabBarControllerConfig.m in Sources */,
+				221D33B41DB07875009B1B5B /* OneViewController.m in Sources */,
+				221D33BA1DB07884009B1B5B /* ThreeViewController.m in Sources */,
+				220E98901DB0B60D001B66CB /* ChildViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +267,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -276,6 +315,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

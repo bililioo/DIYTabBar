@@ -11,4 +11,6 @@
 
 @interface TabBarControllerConfig : NSObject
 
+@property (nonatomic, strong) URTabBarController *tabBarController;
+
 @end

@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+//#import "ViewController.h"
+#import "TabBarControllerConfig.h"
 
 @interface AppDelegate ()
 
@@ -18,17 +19,52 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    ViewController *vc = [[ViewController alloc] init];
+//    ViewController *vc = [[ViewController alloc] init];
     
     self.window = [[UIWindow alloc] init];
     self.window.backgroundColor = [UIColor whiteColor];
     self.window.frame = [UIScreen mainScreen].bounds;
     
-    [self.window setRootViewController:vc];
+    TabBarControllerConfig *config = [[TabBarControllerConfig alloc] init];
+    [self.window setRootViewController:config.tabBarController];
     [self.window makeKeyAndVisible];
     
     
+    [self setUpNavigationBarAppearance];
+    
     return YES;
+}
+
+/**
+ *  设置navigationBar样式
+ */
+- (void)setUpNavigationBarAppearance {
+    UINavigationBar *navigationBarAppearance = [UINavigationBar appearance];
+    
+    UIImage *backgroundImage = nil;
+    NSDictionary *textAttributes = nil;
+    if (NSFoundationVersionNumber > NSFoundationVersionNumber_iOS_6_1) {
+        backgroundImage = [UIImage imageNamed:@"navigationbar_background_tall"];
+        
+        textAttributes = @{
+                           NSFontAttributeName : [UIFont boldSystemFontOfSize:18],
+                           NSForegroundColorAttributeName : [UIColor blackColor],
+                           };
+    } else {
+#if __IPHONE_OS_VERSION_MIN_REQUIRED < __IPHONE_7_0
+        backgroundImage = [UIImage imageNamed:@"navigationbar_background"];
+        textAttributes = @{
+                           UITextAttributeFont : [UIFont boldSystemFontOfSize:18],
+                           UITextAttributeTextColor : [UIColor blackColor],
+                           UITextAttributeTextShadowColor : [UIColor clearColor],
+                           UITextAttributeTextShadowOffset : [NSValue valueWithUIOffset:UIOffsetZero],
+                           };
+#endif
+    }
+    
+    [navigationBarAppearance setBackgroundImage:backgroundImage
+                                  forBarMetrics:UIBarMetricsDefault];
+    [navigationBarAppearance setTitleTextAttributes:textAttributes];
 }
 
 
